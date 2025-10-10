@@ -11,7 +11,7 @@ const Child = ({cartItems,handleRemove}) => {
                 cartItems.map((item,index) => {
                     return (
                         <li key={index}>
-                            {`${item.text} - $ ${item.numInput}`}
+                            {`${item.text} - $${item.numInput}`}
                             <button onClick={() => handleRemove(index)}>Remove</button>
                         </li>
                     )
