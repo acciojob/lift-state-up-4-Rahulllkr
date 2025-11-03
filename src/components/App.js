@@ -25,7 +25,7 @@ const App = () => {
         {/* Do not remove the main div */}
         <h1>Parent Component</h1>
         <div>
-          <label>Item Name:</label>
+          <label></label>
           <input id="itemName" type="text" value={text} onChange={(e) => setText(e.target.value)} />
           <label>Item Price:</label>
           <input id="itemPrice" type="number" value={numInput} onChange={(e) => setNumInput(e.target.value)} />
